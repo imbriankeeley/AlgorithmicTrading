@@ -64,7 +64,7 @@ A sophisticated Bitcoin trading bot system implementing a momentum-based strateg
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/crypto-trading-bot.git
+git clone https://github.com/imbriankeeley/AlgorithmicTrading.git
 cd crypto-trading-bot
 ```
 
