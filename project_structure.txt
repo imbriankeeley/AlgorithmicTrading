@@ -1,0 +1,103 @@
+.
+├── backend
+│   ├── app
+│   │   ├── api
+│   │   │   ├── endpoints
+│   │   │   │   ├── backtesting.py
+│   │   │   │   ├── dashboard.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   └── trading.py
+│   │   │   └── __init__.py
+│   │   ├── config.py
+│   │   ├── core
+│   │   │   ├── backtesting
+│   │   │   │   ├── data_processor.py
+│   │   │   │   ├── engine.py
+│   │   │   │   └── __init__.py
+│   │   │   ├── exchange
+│   │   │   │   ├── coinbase.py
+│   │   │   │   └── __init__.py
+│   │   │   ├── __init__.py
+│   │   │   └── trading
+│   │   │       ├── bot.py
+│   │   │       ├── __init__.py
+│   │   │       ├── risk_manager.py
+│   │   │       └── strategy.py
+│   │   ├── dependencies.py
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── models
+│   │   │   ├── backtest.py
+│   │   │   ├── __init__.py
+│   │   │   └── trade.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── schemas
+│   │   │   ├── backtest.py
+│   │   │   ├── __init__.py
+│   │   │   └── trade.py
+│   │   └── services
+│   │       ├── database.py
+│   │       ├── __init__.py
+│   │       └── notification.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── tests
+│       ├── __init__.py
+│       ├── test_backtesting.py
+│       └── test_trading.py
+├── docker-compose.yml
+├── docs
+│   ├── api
+│   │   └── openapi.yaml
+│   └── architecture
+│       └── system-design.md
+├── frontend
+│   ├── Dockerfile
+│   ├── next.config.js
+│   ├── next-env.d.ts
+│   ├── node_modules
+│   ├── package.json
+│   ├── public
+│   │   └── assets
+│   ├── src
+│   │   ├── app
+│   │   │   ├── dashboard
+│   │   │   │   └── page.tsx
+│   │   │   ├── globals.css
+│   │   │   ├── history
+│   │   │   │   └── page.tsx
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx
+│   │   │   ├── settings
+│   │   │   │   └── page.tsx
+│   │   │   └── trading
+│   │   │       └── page.tsx
+│   │   ├── components
+│   │   │   ├── backtesting
+│   │   │   │   ├── BacktestForm.tsx
+│   │   │   │   └── ResultsView.tsx
+│   │   │   ├── dashboard
+│   │   │   │   ├── PerformanceMetrics.tsx
+│   │   │   │   └── TradeHistory.tsx
+│   │   │   ├── DashboardPage.tsx
+│   │   │   ├── HistoryPage.tsx
+│   │   │   ├── RootLayout.tsx
+│   │   │   ├── SettingsPage.tsx
+│   │   │   ├── trading
+│   │   │   │   ├── OrderForm.tsx
+│   │   │   │   └── TradingView.tsx
+│   │   │   ├── TradingPage.tsx
+│   │   │   └── ui-components.tsx
+│   │   ├── lib
+│   │   │   ├── api.ts
+│   │   │   └── utils.ts
+│   │   └── types
+│   │       └── index.ts
+│   ├── tailwind.config.js
+│   └── tsconfig.json
+├── project_structure.txt
+└── README.md
+
+33 directories, 68 files
