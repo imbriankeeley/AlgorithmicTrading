@@ -1,3 +1,4 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.node filter=lfs diff=lfs merge=lfs -text
 frontend/node_modules/@next/swc-linux-x64-gnu/next-swc.linux-x64-gnu.node filter=lfs diff=lfs merge=lfs -text
+frontend/node_modules/**/*.node filter=lfs diff=lfs merge=lfs -text
